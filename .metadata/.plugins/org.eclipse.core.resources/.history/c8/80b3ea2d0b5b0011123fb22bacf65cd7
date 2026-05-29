@@ -1,0 +1,26 @@
+package com.rays.map;
+
+import java.util.Hashtable;
+import java.util.Map;
+
+public class TestHashTable {
+	
+	public static void main(String[] args) {
+		
+		Map m = new Hashtable();
+		
+		m.put("one", 1); 
+		m.put("two", 2); 
+		m.put("three", 3); 
+		m.put("four", 4); 
+		m.put("five", 5); 
+		
+		System.out.println(m);
+		System.out.println(m.get("two"));
+		System.out.println(m.containsKey("six"));
+		System.out.println(m.containsKey("five"));
+		
+		
+	}
+
+}

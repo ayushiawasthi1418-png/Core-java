@@ -1,0 +1,23 @@
+package com.rays.collection;
+
+import java.util.ArrayList;
+import java.util.Collection;
+
+public class TestCollection {
+	
+	public static void main(String[] args) {
+	
+		@SuppressWarnings("rawtypes")
+		Collection<Comparable> c = new ArrayList<Comparable>();
+	
+		c.add(5);
+		c.add("ram");
+		c.add(true);
+		c.add("a");
+		c.add(4.2);
+	
+		System.out.println(c);
+	
+	}
+
+}

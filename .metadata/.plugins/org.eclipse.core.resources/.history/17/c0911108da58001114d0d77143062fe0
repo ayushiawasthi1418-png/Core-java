@@ -1,0 +1,22 @@
+package com.rays.collection.list;
+
+import java.util.LinkedList;
+import java.util.List;
+
+
+public class TestLinkedList {
+	
+	public static void main(String[] args) {
+		
+		LinkedList l = new LinkedList();
+		
+		l.add(5);
+		l.add("Ram");
+		l.add("shyam");
+		
+		System.out.println(l);
+		
+		
+	}
+
+}

@@ -1,0 +1,20 @@
+package Java_ExceptionHandling;
+
+public class UncheckedPropogation {
+	
+	public static void main(String[] args) {
+		dad();
+	}
+	public static void dad() {
+		mom();
+	}
+	public static void mom() {
+		child();
+		
+	}
+	public static void child() {
+		RuntimeException e=new RuntimeException();
+		throw e;
+	}
+
+}

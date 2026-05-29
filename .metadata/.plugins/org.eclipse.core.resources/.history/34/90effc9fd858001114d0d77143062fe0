@@ -1,0 +1,33 @@
+package com.rays.collection.list;
+
+import java.util.ArrayList;
+
+import java.util.List;
+
+public class TestList {
+	
+	public static void main(String[] args) {
+		
+		List list = new ArrayList();
+		
+		list.add(0,"Ram");
+		list.add(1,'a');
+		list.add(2,2.4);
+		list.add(3,true);
+		list.add(4,45);
+		list.add(5,"ram");
+		list.add(6,"Sita");
+		System.out.println(list);
+		System.out.println(list.get(6));
+		System.out.println(list.remove(4));
+		System.out.println(list);
+		System.out.println(list.set(0, "rawan"));
+		System.out.println(list);
+		System.out.println(list.indexOf("Ram"));
+		System.out.println(list.lastIndexOf("Ram"));
+		System.out.println(list.subList(1,7));
+		
+		
+	}
+
+}
